@@ -1,0 +1,11 @@
+{
+    "name": "Simple chrome proxy API",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "proxy"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
